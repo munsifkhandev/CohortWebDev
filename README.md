@@ -1,5 +1,8 @@
-8 April , 2025
+8 April, 2025
+A Day of Self-Improvement.
+A Day of Academic and Professional Revival.
 
-The Day of Self Improvement and the Dayy of the start of Academic and Professional Comebackk.
+From this day forward, it's a new chapter — one of growth, discipline, and resilience.
 
-Munsif Khan, Remember the Name.
+Munsif Khan.
+Remember the name. The comeback begins now.
