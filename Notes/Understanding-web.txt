@@ -1,0 +1,27 @@
+
+HTTPS (Hypertext Transfer Protocol Secure):  Socho aap online banking kar rahe ho. HTTPS ek secure tunnel ki tarah hai, jo aapke bank aur aapke phone/computer ke beech mein banta hai.  Is tunnel mein aapke sensitive data (jaise password, account details) encrypted hota hai, so koi beech mein dekh nahin sakta.  Ye TLS (Transport Layer Security) certificate ki wajah se hota hai, jo website ki asliyat confirm karta hai.
+
+Stateless Protocols (HTTP):  Socho ek restaurant mein waiter kaise kaam karta hai. Har customer ke liye woh ek naya order leta hai.  Usse pehle wale customer ki order ki koi yaad nahin rahti.  HTTP bhi aisa hi hai.  Har request ek alag order hai, aur server ko pehle wale requests ki koi yaad nahin hoti.  Isliye sessions aur cookies zaroori hote hain.
+
+Sessions and Cookies:  Restaurant mein agar aap regular customer ho, toh waiter aapko pehchan sakta hai aur aapke favorite dish ki suggestion de sakta hai.  Cookies aise hi kaam karte hain.  Yeh aapke browser mein choti si files hain jinmein aapki session ID hoti hai.  Isse server ko pata chal jata hai ki yeh wahi user hai jo pehle bhi website par aaya tha, aur uske hisab se website behave kar sakta hai (jaise shopping cart mein items save karke rakhna).
+
+HTTP Headers: Yeh restaurant mein menu card ki tarah hai.  Ismein request aur response ki sari jaankari hoti hai, jaise kis type ka data server ko bheja ja raha hai, ya response mein kis type ka data aa raha hai.  Example:  `Content-Type: application/json` batayega ki response JSON format mein hai.
+
+Request-Response Model:  Yeh ek simple interaction hai.  Aapne order diya (request), aur waiter ne khana diya (response).  Website mein bhi aisa hi hai.  Aapne website ki request ki, aur website ne aapko content diya.
+
+HTTP/2:  Socho ek restaurant mein agar waiter ek samay mein kai customers ko ek saath service de sakta hai, toh woh kafi efficient hoga.  HTTP/2 bhi aisa hi hai.  Yeh multiple requests ko ek saath handle kar sakta hai, jisse website load hone ki speed badh jati hai.
+
+Encryption (TLS/SSL): Socho aap ek important letter post kar rahe ho, toh aap use ek sealed envelope mein rakhte ho.  TLS/SSL encryption bhi aisa hi hai.  Yeh aapke data ko encrypted karta hai, jisse koi bhi beech mein jaankar use nahin dekh sakta.
+
+User Agents:  Yeh aapki identity card ki tarah hai, jismein aapke browser aur operating system ki information hoti hai.  Website isse jaan kar aapke liye appropriate content display kar sakti hai.
+
+TCP (Transmission Control Protocol):  Yeh ek reliable courier service ki tarah hai jo pakka karta hai ki aapki delivery safe aur sahi time par pahunche.  Agar koi problem aati hai toh woh data ko fir se bhejta hai.
+
+URLs & DNS:  URL website ka address hai (jaise ghar ka address), aur DNS woh service hai jo address ko location mein translate karta hai (jaise address ko map par location dhundna).
+
+Payload:  This is the actual content of your message – the body of the email, the contents of the package.  In HTTP, it's the data being sent (like the HTML of a webpage).
+
+Cache:  This is like having a local copy of frequently used information.  Browsers and servers cache data to speed up access, avoiding repeated requests to the server.
+
+TLS Certificate:  This is like a digital ID card for a website.  It verifies the website's identity, ensuring you're communicating with the legitimate site and not an imposter.
+
