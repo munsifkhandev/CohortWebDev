@@ -1,0 +1,25 @@
+Q What is Pipelining and Overhead?
+
+🔄 Pipelining (HTTP Pipelining)
+Yeh ek technique hoti hai jisme multiple HTTP requests ko ek saath sequence mein server ko bhej diya jaata hai, bina wait kiye pehle response ka.
+
+Soch le tu server se 3 cheezein maang raha hai — ek image, ek CSS file, aur ek JS file. Normally, tu pehle image ka response aane ka wait karta, phir CSS mangta, phir JS.
+
+But pipelining mein tu teeno ek saath line mein laga ke bhej deta hai — image, CSS, JS — aur server ek ek karke process karta hai.
+
+➡️ Isse latency kam hoti hai, aur website thodi fast load hoti hai.
+
+⚠️ Note: Modern browsers ne HTTP/1.1 pipelining ko mostly hata diya hai, aur HTTP/2 ya HTTP/3 mein yeh kaam aur better tarike se hota hai using multiplexing.
+
+⚙️ Overhead
+Overhead ka matlab hota hai extra kaam ya extra load jo kisi kaam ko complete karne ke liye lagta hai — jo zaroori nahi hai output ke liye, but process mein involved hota hai.
+
+Web mein yeh kai jagah hota hai:
+
+Agar tu zyada HTTP requests bhej raha hai, toh har ek request ka apna header, handshake, wagairah hota hai — yeh sab overhead hai.
+
+Agar tu server side pe koi complex logic laga raha hai jo time le raha hai — woh bhi processing overhead ban jaata hai.
+
+Compression, encryption, ya zyada large libraries bhi overhead bana sakti hain.
+
+➡️ Overhead ko minimize karne se performance improve hoti hai.
